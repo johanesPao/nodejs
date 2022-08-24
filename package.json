@@ -1,0 +1,31 @@
+{
+  "name": "nodejs",
+  "version": "0.0.1",
+  "description": "nodejs tutorial",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johanesPao/nodejs.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Johanes Pao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johanesPao/nodejs/issues"
+  },
+  "homepage": "https://github.com/johanesPao/nodejs#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.34.0",
+    "eslint": "^8.22.0",
+    "eslint-config-standard-with-typescript": "^22.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-promise": "^6.0.0",
+    "typescript": "^4.7.4"
+  }
+}
