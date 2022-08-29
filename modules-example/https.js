@@ -1,8 +1,9 @@
-const { send, read } = require('./internals') // --> importing folder won't work unless you create index.js in that folder with module.exports pointing to module being exported from that folder
+// const { send, read } = require('./internals') // --> importing folder won't work unless you create index.js in that folder with module.exports pointing to module being exported from that folder
 
-// const { send } = require('./internals/request') // --> CommonJS import
+const { send } = require('./internals/request') // --> CommonJS import
 // import { send } from './request.mjs' // --> ES6 import
-// const { read } = require('./internals/response') // --> CommonJS import
+const { read } = require('./internals/response') // --> CommonJS import
+const { REQUEST_TIMEOUT } = require('./internals/request') // --> CommonJS import
 // import { read } from './response.mjs' // --> ES6 import
 // import { REQUEST_TIMEOUT } from './request.js' // --> ES6 import
 
