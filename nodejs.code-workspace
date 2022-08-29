@@ -1,11 +1,21 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {
-		"editor.tabCompletion": "on",
-		"diffEditor.codeLens": true
-	}
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "editor.tabCompletion": "on",
+        "diffEditor.codeLens": true,
+        "prettier.semi": false,
+        "prettier.endOfLine": "lf",
+        "prettier.bracketSameLine": true,
+        "javascript.suggest.enabled": true,
+        "javascript.suggestionActions.enabled": false,
+        "javascript.suggest.paths": true,
+        "prettier.tabWidth": 4,
+        "editor.fontFamily": "'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace",
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "modificationsIfAvailable"
+    }
 }
