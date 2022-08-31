@@ -1,0 +1,6 @@
+{
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true,
+    "editor.tabCompletion": "on",
+    "diffEditor.codeLens": true
+}
